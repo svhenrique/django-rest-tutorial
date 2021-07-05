@@ -47,4 +47,4 @@ def snippet_detail(request, pk):
 
     elif request.method == 'DELETE':
         snippet.delete()
-        return HttpResponse(status=204
+        return HttpResponse(status=204)
